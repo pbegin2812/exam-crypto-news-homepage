@@ -155,7 +155,6 @@ footer {
     width: 25%;
 }
 
-.footer:hover {
-    transform: scale(1.2);
-    
+.footer:hover h4 {
+    color: #F15D51;
 }
