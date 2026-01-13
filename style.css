@@ -1,27 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 html {
-    font-family: "Inter", sans-serif;
+	font-family: "Inter", sans-serif;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1000px;
 }
 
 nav ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 35px;
 }
 
 ol a {
-    text-decoration: none;
-    color: #5E607A;
+	text-decoration: none;
+	color: #5e607a;
+}
+
+.mainarticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+
+.mainarticle h2 {
+    font-weight: 800;
+    padding-top: 35px;
+    margin: 0px;
+    font-size: 56px;
+    color: #00001A;
+    line-height: 0.8;
+}
+
+.mainarticle p {
+	color: #5e607a;
+}
+
+.readmore {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	letter-spacing: 5px;
+	border: none;
+	background-color: #f15d51;
+	outline-color: green;
+	outline-width: 9px;
+    width: max-content;
+    color: #00001A;
+}
+
+.buttonp {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: max-content;
+    gap: 15px;
+    padding-top: 15px;
+    line-height: 1.8;
+}
+
+.bottommainarticle {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    gap: 17px;
 }
