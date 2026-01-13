@@ -31,7 +31,7 @@ ol a {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    width: 100%;
+    width: 50%;
 }
 
 .mainarticle h2 {
@@ -75,6 +75,44 @@ ol a {
 .bottommainarticle {
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 80%;
     gap: 17px;
+}
+
+.forecast {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #00001A;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.forecast > h3,
+.day-forecast {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  color: #E9AA52;
+}
+
+.day-forecast {
+  color: #FFFFFF;
+}
+
+.day-forecast > h4,
+.day-forecast > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+hr {
+  width: 75%
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
 }
