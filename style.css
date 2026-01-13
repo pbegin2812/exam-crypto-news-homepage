@@ -119,6 +119,8 @@ hr {
 
 footer {
     padding-top: 150px;
+    display: flex;
+    flex-direction: row;
 }
 
 .footer h3 {
@@ -153,3 +155,7 @@ footer {
     width: 25%;
 }
 
+.footer:hover {
+    transform: scale(1.2);
+    
+}
