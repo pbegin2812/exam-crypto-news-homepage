@@ -169,3 +169,29 @@ footer {
 .footer:hover h4 {
 	color: #f15d51;
 }
+
+thead {
+	background-color: black;
+	color: white;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+th,
+td {
+    font-size: 15px;
+	padding: 8px 64px 8px 16px;
+	text-align: start;  
+}
+
+.couleurpos{
+    color: #64F48A;
+}
+
+.couleurneg{
+   color: #F15D51;
+}
