@@ -4,12 +4,20 @@ html {
 	font-family: "Inter", sans-serif;
 }
 
+body {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: 1000px;
+	gap: 350px;
 }
 
 nav ol {
@@ -27,20 +35,20 @@ ol a {
 }
 
 .mainarticle {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
 }
 
 .mainarticle h2 {
-    font-weight: 800;
-    padding-top: 35px;
-    margin: 0px;
-    font-size: 56px;
-    color: #00001A;
-    line-height: 0.8;
+	font-weight: 800;
+	padding-top: 35px;
+	margin: 0px;
+	font-size: 56px;
+	color: #00001a;
+	line-height: 0.8;
 }
 
 .mainarticle p {
@@ -57,104 +65,107 @@ ol a {
 	background-color: #f15d51;
 	outline-color: green;
 	outline-width: 9px;
-    width: max-content;
-    color: #00001A;
+	width: max-content;
+	color: #00001a;
 }
 
 .buttonp {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    width: max-content;
-    gap: 15px;
-    padding-top: 15px;
-    line-height: 1.8;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: max-content;
+	gap: 15px;
+	padding-top: 15px;
+	line-height: 1.8;
 }
 
 .bottommainarticle {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    gap: 17px;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	gap: 17px;
 }
 
 .forecast {
-  margin: 0;
-  padding: 0.3rem;
-  background-color: #00001A;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+	margin: 0;
+	padding: 0.3rem;
+	background-color: #00001a;
+	display: flex;
+	flex-direction: column;
+	width: 15%;
 }
 
 .forecast > h3,
 .day-forecast {
-  margin: 0.5rem;
-  padding: 0.3rem;
-  font-size: 1.2rem;
-  color: #E9AA52;
+	margin: 0.5rem;
+	padding: 0.3rem;
+	font-size: 1.2rem;
+	color: #e9aa52;
 }
 
 .day-forecast {
-  color: #FFFFFF;
+	color: #ffffff;
 }
 
 .day-forecast > h4,
 .day-forecast > p {
-  margin: 0.2rem;
-  font-size: 1rem;
+	margin: 0.2rem;
+	font-size: 1rem;
 }
 
 hr {
-  width: 75%
+	width: 75%;
 }
 
 .up {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: start;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 9px;
 }
 
 footer {
-    padding-top: 150px;
-    display: flex;
-    flex-direction: row;
+	padding-top: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer h3 {
-    font-size: 32px;
-    color: #F15D51;
-    margin: 0px;
+	font-size: 32px;
+	color: #f15d51;
+	margin: 0px;
 }
 
 .footer h4 {
-    font-size: 18px;
-    margin: 0px;
-    color: #00001A;
-    font-weight: 800;
+	font-size: 18px;
+	margin: 0px;
+	color: #00001a;
+	font-weight: 800;
 }
 
 .footer p {
-    margin: 0px;
-    color: #5e607a;
+	margin: 0px;
+	color: #5e607a;
 }
 
 .motion {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 13px;
-    width: 25%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 13px;
+	width: 21%;
 }
 
 .footer:hover h4 {
-    color: #F15D51;
+	color: #f15d51;
 }
