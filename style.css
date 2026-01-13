@@ -116,3 +116,40 @@ hr {
     align-items: start;
     justify-content: start;
 }
+
+footer {
+    padding-top: 150px;
+}
+
+.footer h3 {
+    font-size: 32px;
+    color: #F15D51;
+    margin: 0px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    margin: 0px;
+    color: #00001A;
+    font-weight: 800;
+}
+
+.footer p {
+    margin: 0px;
+    color: #5e607a;
+}
+
+.motion {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 25%;
+}
+
